@@ -1,0 +1,3 @@
+[submodule "GenConViT"]
+	path = GenConViT
+	url = https://github.com/erprogs/GenConViT.git

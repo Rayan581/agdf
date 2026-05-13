@@ -1,0 +1,45 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Test/type cache
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large model/data artifacts
+*.pth
+GenConViT/weight/
+GenConViT/sample_prediction_data/
+GenConViT/sample_train_data/
+GenConViT/result/
+GenConViT/sample_prediction_data/*.mp4*
+
+# Large PDFs in repo root
+GenConvit_paper.pdf
+i230018_i230079_i232574_i230096.pdf
